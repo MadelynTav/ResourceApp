@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import boston.hackingforgood.resourceapp.R;
 import boston.hackingforgood.resourceapp.components.about.AboutActivity;
-import boston.hackingforgood.resourceapp.components.signup.SignupActivity;
+import boston.hackingforgood.resourceapp.components.sign_up.SignUpActivity;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -27,7 +27,7 @@ public class LaunchActivity extends AppCompatActivity {
 
     @OnClick(R.id.applyNowButton)
     public void onClickApplyNow(){
-        Intent intent = new Intent(this, SignupActivity.class);
+        Intent intent = new Intent(this, SignUpActivity.class);
         startActivity(intent);
     }
 }
