@@ -2,11 +2,10 @@ package boston.hackingforgood.resourceapp.components.profile_setup;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.ImageView;
-
-import com.squareup.picasso.Picasso;
 
 import boston.hackingforgood.resourceapp.R;
 import butterknife.Bind;
@@ -43,5 +42,15 @@ public class ProfileSetupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_setup);
         ButterKnife.bind(this);
+        configureOrganizationAutocomplete();
+    }
+
+    private void configureOrganizationAutocomplete() {
+        String[] placeholderOrgs = {"Seattle Police", "WARN", "Take Action", "Seattle Against Slavery"};
+        ArrayAdapter organizationAdapter = new ArrayAdapter<>(
+                this,
+                android.R.layout.simple_dropdown_item_1line,
+                placeholderOrgs);
+        organizationAutocomplete.setAdapter(organizationAdapter);
     }
 }
