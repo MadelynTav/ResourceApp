@@ -10,27 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         >
-
-        <activity android:name=".components.launch.LaunchScreen">
+        <activity android:name=".components.launch.LaunchActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
-        <activity android:name=".components.about.AboutPage">
+        <activity android:name=".components.about.AboutActivity">
         </activity>
-
-        <activity android:name=".components.signup.SignUpActivity">
+        <activity android:name=".components.signup.SignupActivity">
         </activity>
-
         <activity android:name=".components.account_created.AccountCreatedActivity">
         </activity>
-
         <activity android:name=".components.profile_setup.ProfileSetupActivity">
         </activity>
-
         <activity android:name=".components.home.HomeActivity">
         </activity>
+        <activity android:name=".components.post.PostActivity">
+        </activity>
     </application>
+
 </manifest>

@@ -1,17 +1,16 @@
 package boston.hackingforgood.resourceapp.components.launch;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.Button;
+import android.support.v7.app.AppCompatActivity;
 
 import boston.hackingforgood.resourceapp.R;
-import boston.hackingforgood.resourceapp.components.about.AboutPage;
-import boston.hackingforgood.resourceapp.components.signup.SignUpActivity;
+import boston.hackingforgood.resourceapp.components.about.AboutActivity;
+import boston.hackingforgood.resourceapp.components.signup.SignupActivity;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class LaunchScreen extends AppCompatActivity {
+public class LaunchActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,13 +21,13 @@ public class LaunchScreen extends AppCompatActivity {
 
     @OnClick(R.id.aboutUsButton)
     public void onClickAboutUs(){
-        Intent intent = new Intent(this, AboutPage.class);
+        Intent intent = new Intent(this, AboutActivity.class);
         startActivity(intent);
     }
 
     @OnClick(R.id.applyNowButton)
     public void onClickApplyNow(){
-        Intent intent = new Intent(this, SignUpActivity.class);
+        Intent intent = new Intent(this, SignupActivity.class);
         startActivity(intent);
     }
 }

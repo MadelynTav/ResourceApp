@@ -1,11 +1,11 @@
 package boston.hackingforgood.resourceapp.components.signup;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import boston.hackingforgood.resourceapp.R;
 
-public class SignUpActivity extends AppCompatActivity {
+public class SignupActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

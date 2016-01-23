@@ -1,11 +1,11 @@
 package boston.hackingforgood.resourceapp.components.about;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import boston.hackingforgood.resourceapp.R;
 
-public class AboutPage extends AppCompatActivity {
+public class AboutActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
