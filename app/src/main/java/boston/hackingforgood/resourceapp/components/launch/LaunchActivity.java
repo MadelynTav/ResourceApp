@@ -20,7 +20,7 @@ public class LaunchActivity extends AppCompatActivity {
     }
 
     @OnClick(R.id.aboutUsButton)
-    public void onClickAboutUs(){
+    public void onClickAboutUs() {
         Intent intent = new Intent(this, AboutActivity.class);
         startActivity(intent);
     }

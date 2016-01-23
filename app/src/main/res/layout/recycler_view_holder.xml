@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/organizationLogoImageView"
+        android:background="#785567"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/organizationLogoImageView"
+        android:text="Request Title"
+        android:layout_marginBottom="40dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/requestTitleImageView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/requestByTextView"
+        android:text="Request By UserName"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/organizationLogoImageView"
+        android:layout_below="@id/requestTitleImageView"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fromOrganizationTextView"
+        android:text="from Organization"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/organizationLogoImageView"
+        android:layout_below="@id/requestByTextView"
+        />
+
+
+
+</RelativeLayout>
