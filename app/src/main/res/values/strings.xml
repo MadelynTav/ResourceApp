@@ -44,4 +44,9 @@
     <string name="my_city">My City</string>
     <string name="my_state">My State</string>
     <string name="nation">Nation</string>
+    <string name="change_logo">Change Logo</string>
+    <string name="organization_name">Organization Name</string>
+    <string name="organization_email_address">Organization Email Address</string>
+    <string name="organization_phone">Organization Phone</string>
+    <string name="organization_website">Organization Website</string>
 </resources>
