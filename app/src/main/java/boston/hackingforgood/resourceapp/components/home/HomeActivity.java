@@ -19,7 +19,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         ButterKnife.bind(this);
         FragmentManager fragmentManager = getSupportFragmentManager();
-        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this, fragmentManager);
-        viewPager.setAdapter(viewPagerAdapter);
+        HomeViewPagerAdapter homeViewPagerAdapter = new HomeViewPagerAdapter(this, fragmentManager);
+        viewPager.setAdapter(homeViewPagerAdapter);
     }
 }

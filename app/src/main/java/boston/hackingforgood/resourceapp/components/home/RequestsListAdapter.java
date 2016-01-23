@@ -10,11 +10,11 @@ import java.util.List;
 
 import boston.hackingforgood.resourceapp.R;
 
-public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class RequestsListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     List<Object> objectList;
     Context context;
 
-    public RecyclerViewAdapter(Context context, List<Object> objects){
+    public RequestsListAdapter(Context context, List<Object> objects){
         this.context= context;
         objectList= objects;
     }

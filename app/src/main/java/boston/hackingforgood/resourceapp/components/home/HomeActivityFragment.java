@@ -19,20 +19,28 @@ public class HomeActivityFragment extends Fragment {
     @Bind(R.id.recyclerView)
     RecyclerView recyclerView;
 
+    public HomeActivityFragment() {
+        // Required empty public constructor
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home_activity, container, false);
         ButterKnife.bind(this, view);
 
+        setupAdapter();
+
+        return view;
+    }
+
+    private void setupAdapter() {
         List<Object> objects = new ArrayList<>();
         objects.add("Message One");
         objects.add("Message Two");
         objects.add("Message Three");
-        RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter(getActivity(), objects);
-        recyclerView.setAdapter(recyclerViewAdapter);
-
-        return view;
+        RequestsListAdapter requestsListAdapter = new RequestsListAdapter(getActivity(), objects);
+        recyclerView.setAdapter(requestsListAdapter);
     }
 
 }

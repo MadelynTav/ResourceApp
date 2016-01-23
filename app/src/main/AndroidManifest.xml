@@ -19,6 +19,7 @@
         <activity android:name=".components.about.AboutActivity">
         </activity>
         <activity android:name=".components.sign_up.SignUpActivity">
+
         </activity>
         <activity android:name=".components.account_created.AccountCreatedActivity">
         </activity>

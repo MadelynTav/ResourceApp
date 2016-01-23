@@ -7,14 +7,14 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import boston.hackingforgood.resourceapp.R;
 
-public class ViewPagerAdapter extends FragmentPagerAdapter {
+public class HomeViewPagerAdapter extends FragmentPagerAdapter {
     Context context;
 
-    public ViewPagerAdapter(FragmentManager fm) {
+    public HomeViewPagerAdapter(FragmentManager fm) {
         super(fm);
     }
 
-    public ViewPagerAdapter(Context context, FragmentManager fm) {
+    public HomeViewPagerAdapter(Context context, FragmentManager fm) {
         super(fm);
         this.context = context;
     }
