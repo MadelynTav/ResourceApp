@@ -19,5 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".components.launch.LaunchScreen">
+        </activity>
+        <activity android:name=".components.about.AboutPage">
+        </activity>
+        <activity android:name=".components.signup.SignUpActivity">
+        </activity>
     </application>
 </manifest>
