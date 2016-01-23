@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    package="boston.hackingforgood.resourceapp"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="boston.hackingforgood.resourceapp"
     >
 
     <application
@@ -11,19 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         >
-        <activity android:name=".components.home.HomeActivity">
-        </activity>
-        <activity android:name=".components.profile_setup.ProfileSetupActivity">
+
+        <activity android:name=".components.launch.LaunchScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".components.launch.LaunchScreen">
-        </activity>
+
         <activity android:name=".components.about.AboutPage">
         </activity>
+
         <activity android:name=".components.signup.SignUpActivity">
+        </activity>
+
+        <activity android:name=".components.account_created.AccountCreatedActivity">
+        </activity>
+
+        <activity android:name=".components.profile_setup.ProfileSetupActivity">
+        </activity>
+
+        <activity android:name=".components.home.HomeActivity">
         </activity>
     </application>
 </manifest>

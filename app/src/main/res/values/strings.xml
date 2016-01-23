@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">ResourceApp</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, quot omnis alienum et mel, an nam labore iudicabit. Sed ad mucius delicata liberavisse. Ut vix aliquam appareat, prima vocibus similique sea te, pro ex altera eripuit. E nim ornatus vim eu, eos eu vidit postulant, scripta iudicabit in cum. Ad diceret alienum dolores quo, te magna vivendum electram quo. Et sit regione nominavi neglegentur, ne mel nobis ullamcorper, officiis dissentiunt nam ex. Est evertitur philosophia eu, mea cu ridens tamquam comprehensam. Ne periculis interpretaris usu, eius veri rebum ea vis, id duis tamquam posidonium pro. In tamquam qualisque vel, option nusquam ei nec, ad vel alia equidem signiferumque. Et partiendo mnesarchum usu. Qui at ponderum adversarium, in legendos mandamus ius. Dicam munere mediocritatem ut his. Et solum volutpat pericula duo, brute dolores constituam ne nec. Est ei altera causae, eos novum exerci accommodare an, per id postea nemore audiam. At sit mundi aperiam evertitur, sapientem repudiare conceptam cu est. Quem insolens interesset mel ne, an velit inani choro his, ex has viris maiorum. Sea in paulo vitae comprehensam. Inani menandri incorrupte vel ex. Ad eam purto luptatum salutandi. Sit rebum veritus ex. Choro alienum ne vix, nec natum convenire ea. Vix putant mandamus in, dissentias conclusionemque duo ei. Et movet veniam possim sea, lorem graecis singulis mel an. An purto idque omittantur pri, te has minimum voluptatum.</string>
+
     <string name="change_photo">Change Photo</string>
     <string name="profile_image">Profile Image</string>
     <string name="real_name">Real Name</string>
@@ -8,6 +11,7 @@
     <string name="mobile_phone">Mobile Phone</string>
     <string name="organization">Organization</string>
     <string name="change_password">Change Password</string>
+
     <string name="welcome_to">Welcome To</string>
     <string name="apply_now">Apply Now</string>
     <string name="about_us">About us</string>
@@ -16,12 +20,17 @@
     <string name="sign_in">Sign in</string>
     <string name="forgot_password">Forgot Password</string>
     <string name="sign_up">Sign Up</string>
-    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, quot omnis alienum et mel, an nam labore iudicabit. Sed ad mucius delicata liberavisse. Ut vix aliquam appareat, prima vocibus similique sea te, pro ex altera eripuit. E nim ornatus vim eu, eos eu vidit postulant, scripta iudicabit in cum. Ad diceret alienum dolores quo, te magna vivendum electram quo. Et sit regione nominavi neglegentur, ne mel nobis ullamcorper, officiis dissentiunt nam ex. Est evertitur philosophia eu, mea cu ridens tamquam comprehensam. Ne periculis interpretaris usu, eius veri rebum ea vis, id duis tamquam posidonium pro. In tamquam qualisque vel, option nusquam ei nec, ad vel alia equidem signiferumque. Et partiendo mnesarchum usu. Qui at ponderum adversarium, in legendos mandamus ius. Dicam munere mediocritatem ut his. Et solum volutpat pericula duo, brute dolores constituam ne nec. Est ei altera causae, eos novum exerci accommodare an, per id postea nemore audiam. At sit mundi aperiam evertitur, sapientem repudiare conceptam cu est. Quem insolens interesset mel ne, an velit inani choro his, ex has viris maiorum. Sea in paulo vitae comprehensam. Inani menandri incorrupte vel ex. Ad eam purto luptatum salutandi. Sit rebum veritus ex. Choro alienum ne vix, nec natum convenire ea. Vix putant mandamus in, dissentias conclusionemque duo ei. Et movet veniam possim sea, lorem graecis singulis mel an. An purto idque omittantur pri, te has minimum voluptatum.</string>
+
     <string name="partner_application_form">Partner Application Form</string>
     <string name="partner_application_form_explanation">This application is to be completed by all organizations, churches or agencies who want to partner with Bridging the Gap</string>
+
     <string name="create_account">Create Account</string>
     <string name="become_a_partner">Become A Partner</string>
     <string name="user_application_form">User Application Form</string>
     <string name="your_organization_is_already_a_bridging_the_gap_partner">Your organization is already a Bridging the Gap partner</string>
     <string name="create_a_user_account">Create A User Account</string>
+    <string name="approval">Approval is Coming</string>
+    <string name="approval_description">Our admin team is reviewing your application, please allow us 48 hours to approve your account.</string>
+
+    <string name="button_setup_profile">Setup Profile</string>
 </resources>
