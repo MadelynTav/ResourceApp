@@ -15,7 +15,7 @@ public class LaunchActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_launch_screen);
+        setContentView(R.layout.activity_launch);
         ButterKnife.bind(this);
     }
 
