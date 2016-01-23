@@ -33,4 +33,9 @@
     <string name="approval_description">Our admin team is reviewing your application, please allow us 48 hours to approve your account.</string>
 
     <string name="button_setup_profile">Setup Profile</string>
+    <string name="placeholder_post_title">Title of post</string>
+    <string name="placeholder_organization">Placeholder Organization</string>
+    <string name="placeholder_user_name">Placeholder Username</string>
+    <string name="private_message">Private Message</string>
+    <string name="reply">Reply</string>
 </resources>
