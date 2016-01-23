@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    package="boston.hackingforgood.resourceapp"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="boston.hackingforgood.resourceapp"
     >
 
     <application
@@ -14,6 +13,8 @@
         <activity android:name=".components.home.HomeActivity">
         </activity>
         <activity android:name=".components.profile_setup.ProfileSetupActivity">
+        </activity>
+        <activity android:name=".components.account_created.AccountCreatedActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -26,4 +27,5 @@
         <activity android:name=".components.signup.SignUpActivity">
         </activity>
     </application>
+
 </manifest>
