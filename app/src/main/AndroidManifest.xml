@@ -31,6 +31,8 @@
         </activity>
         <activity android:name=".components.organization_profile_setup.OrganizationProfileActivity">
         </activity>
+        <activity android:name=".components.post.CreateNewPostActivity">
+        </activity>
     </application>
 
 </manifest>
