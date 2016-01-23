@@ -10,7 +10,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 public class HomeActivity extends AppCompatActivity {
-    @Bind(R.id.viewPager)
+    @Bind(R.id.homeViewPager)
     ViewPager viewPager;
 
     @Override
@@ -18,6 +18,10 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         ButterKnife.bind(this);
+        setUpViewPagerAdapter();
+    }
+
+    private void setUpViewPagerAdapter() {
         FragmentManager fragmentManager = getSupportFragmentManager();
         HomeViewPagerAdapter homeViewPagerAdapter = new HomeViewPagerAdapter(this, fragmentManager);
         viewPager.setAdapter(homeViewPagerAdapter);
