@@ -15,9 +15,6 @@ import boston.hackingforgood.resourceapp.R;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class HomeActivityFragment extends Fragment {
     @Bind(R.id.recyclerView)
     RecyclerView recyclerView;
