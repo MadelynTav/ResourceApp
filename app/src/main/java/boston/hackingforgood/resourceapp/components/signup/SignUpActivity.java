@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import boston.hackingforgood.resourceapp.R;
 
-public class SignupActivity extends AppCompatActivity {
+public class SignUpActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
