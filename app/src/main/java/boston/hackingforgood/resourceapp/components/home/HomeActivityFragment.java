@@ -19,6 +19,10 @@ public class HomeActivityFragment extends Fragment {
     @Bind(R.id.recyclerView)
     RecyclerView recyclerView;
 
+    public HomeActivityFragment() {
+        // Required empty public constructor
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

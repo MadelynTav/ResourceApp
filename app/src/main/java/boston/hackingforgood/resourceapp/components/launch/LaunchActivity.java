@@ -20,13 +20,13 @@ public class LaunchActivity extends AppCompatActivity {
     }
 
     @OnClick(R.id.aboutUsButton)
-    public void onClickAboutUs(){
+    public void onClickAboutUs() {
         Intent intent = new Intent(this, AboutActivity.class);
         startActivity(intent);
     }
 
     @OnClick(R.id.applyNowButton)
-    public void onClickApplyNow(){
+    public void onClickApplyNow() {
         Intent intent = new Intent(this, SignUpActivity.class);
         startActivity(intent);
     }
