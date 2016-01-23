@@ -11,6 +11,7 @@
     android:orientation="vertical"
     tools:context=".components.sign_up.SignUpActivity"
     >
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -19,7 +19,6 @@ public class HomeActivityFragment extends Fragment {
     @Bind(R.id.recyclerView)
     RecyclerView recyclerView;
 
-
     public HomeActivityFragment() {
         // Required empty public constructor
     }
@@ -30,6 +29,12 @@ public class HomeActivityFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home_activity, container, false);
         ButterKnife.bind(this, view);
 
+        setupAdapter();
+
+        return view;
+    }
+
+    private void setupAdapter() {
         List<Object> objects = new ArrayList<>();
         objects.add("Message One");
         objects.add("Message Two");
@@ -37,7 +42,8 @@ public class HomeActivityFragment extends Fragment {
         RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter(getActivity(), objects);
         recyclerView.setAdapter(recyclerViewAdapter);
 
-        return view;
+        RequestsListAdapter requestsListAdapter = new RequestsListAdapter(getActivity(), objects);
+        recyclerView.setAdapter(requestsListAdapter);
     }
 
 }
