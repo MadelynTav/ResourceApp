@@ -60,6 +60,4 @@
         android:id="@+id/createAUserAccountButton"
         android:background="@color/white"
         />
-
-
 </LinearLayout>

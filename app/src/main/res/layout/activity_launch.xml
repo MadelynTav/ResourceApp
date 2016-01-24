@@ -11,6 +11,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".components.launch.LaunchActivity"
     >
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,6 +20,7 @@
         android:id="@+id/welcomeToTextView"
         android:textStyle="bold"
         />
+
     <ImageView
         android:layout_margin="20dp"
         android:layout_width="match_parent"
@@ -26,6 +28,7 @@
         android:id="@+id/companyLogo"
         android:src="@drawable/logo"
         />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -50,6 +53,7 @@
         android:orientation="horizontal"
         android:layout_margin="10dp"
         >
+
         <ImageView
             android:layout_width="0dp"
             android:layout_height="30dp"
@@ -57,6 +61,7 @@
             android:layout_marginRight="20dp"
             android:background="#375656"
             />
+
         <EditText
             android:layout_width="0dp"
             android:layout_weight="3"
@@ -67,12 +72,14 @@
             />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_margin="10dp"
         >
+
         <ImageView
             android:layout_width="0dp"
             android:layout_height="30dp"
@@ -81,6 +88,7 @@
             android:id="@+id/passwordEditText"
             android:background="#375656"
             />
+
         <EditText
             android:layout_width="0dp"
             android:layout_weight="3"

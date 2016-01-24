@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import boston.hackingforgood.resourceapp.R;
 import boston.hackingforgood.resourceapp.components.about.AboutActivity;
+import boston.hackingforgood.resourceapp.components.home.HomeActivity;
 import boston.hackingforgood.resourceapp.components.sign_up.SignUpActivity;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -15,7 +16,7 @@ public class LaunchActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_launch_screen);
+        setContentView(R.layout.activity_launch);
         ButterKnife.bind(this);
     }
 
@@ -29,5 +30,16 @@ public class LaunchActivity extends AppCompatActivity {
     public void onClickApplyNow(){
         Intent intent = new Intent(this, SignUpActivity.class);
         startActivity(intent);
+    }
+
+    @OnClick(R.id.signInButton)
+    public void onSignInButtonClicked() {
+        attemptLogin();
+    }
+
+    private void attemptLogin() {
+        Intent intent = new Intent(this, HomeActivity.class);
+        startActivity(intent);
+        finish();
     }
 }
