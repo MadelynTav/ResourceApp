@@ -63,7 +63,5 @@
             android:layout_weight="1"
             android:src="@drawable/ic_add_24dp"
             />
-
-
     </LinearLayout>
 </LinearLayout>
