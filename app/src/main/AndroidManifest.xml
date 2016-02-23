@@ -3,6 +3,8 @@
           package="boston.hackingforgood.resourceapp"
     >
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name=".BridgingTheGapApp"
         android:allowBackup="true"
@@ -33,6 +35,9 @@
         </activity>
         <activity android:name=".components.post.CreateNewPostActivity">
         </activity>
-    </application>
 
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="3d603e3b4046abc931b6d8343eb32dfa58f8a0df"/>
+    </application>
 </manifest>
